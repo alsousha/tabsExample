@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Class</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="btns">
+      <button class="btn active" onclick="changeDiv('Div1', this)">Text1</button>
+      <button class="btn" onclick="changeDiv('Div2', this)">Text2</button>
+      <button class="btn" onclick="changeDiv('Div3', this)">Text3</button>
+    </div>
+    <div class="context">
+      <div class="data" id="Div1">Lorem1 ipsum dolor sit amet consectetur adipisicing elit. Porro possimus beatae libero
+        architecto nesciunt molestias enim minima natus eligendi sit.</div>
+      <div class="data hidden" id="Div2">Lorem2 ipsum dolor sit amet, consectetur adipisicing elit. Doloribus eveniet
+        saepe,
+        magnam itaque eaque nobis hic, non omnis qui magni earum neque quibusdam in, reiciendis incidunt suscipit
+        praesentium. Placeat, soluta?</div>
+      <div class="data hidden" id="Div3">Lorem3 ipsum dolor sit amet consectetur adipisicing elit. Porro possimus beatae
+        libero
+        architecto
+        nesciunt molestias enim minima natus eligendi sit.</div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <script src="js.js"></script>
+</body>
+
+</html>
