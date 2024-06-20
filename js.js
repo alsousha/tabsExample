@@ -1,6 +1,9 @@
 'use strict';
 function changeDiv(divId, btn) {
   // console.log(btn);
+  function kuku() {
+    alert('sdfsdf');
+  }
   const btns = document.querySelectorAll('.btn');
   btns.forEach(el => {
     if (el.classList.contains('active')) el.classList.remove('active');
